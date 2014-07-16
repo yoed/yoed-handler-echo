@@ -1,7 +1,7 @@
 Yo'ed echo
 ================
 
-The simplest Yo'ed client: just echo the username who Yo'ed you
+The simplest Yo'ed handler: just echo the username who Yo'ed you
 
 #Installation
 You need the [go](http://golang.org) package on your machine to get the source
