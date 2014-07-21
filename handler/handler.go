@@ -9,8 +9,8 @@ type Handler struct {
 	Config httpInterface.Config
 }
 
-func (c *Handler) Handle(username string) {
-	log.Printf("Yo'ed by %s", username)
+func (c *Handler) Handle(username, handle string) {
+	log.Printf("Yo'ed by %s on %s", username, handle)
 }
 
 func New() *Handler {
